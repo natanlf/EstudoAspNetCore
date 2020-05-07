@@ -50,5 +50,10 @@ namespace EstudoWebApiAspNetCore.Services
         {
             return _repository.Todas();
         }
+
+        List<Palavra> IPalavraService.TodasPaginacao(DateTime data, int pagNumero, int pagRegistroPag)
+        {
+            return _repository.TodasPaginacao(data, pagNumero, pagRegistroPag);
+        }
     }
 }

@@ -40,6 +40,13 @@ namespace EstudoWebApiAspNetCore.Controllers
             return Ok(result);
         }
 
+        [Route("GetPaginacao"), HttpGet]
+        public ActionResult ObterTodosPaginacao(DateTime data, int pagNumero, int pagRegistroPag)
+        {
+            var result = _service.TodasPaginacao(data, pagNumero, pagRegistroPag);
+            return Ok(result);
+        }
+
         [HttpGet("{id}", Name = "ObterPalavra")]
         public ActionResult obter(int id) {
             var result = _service.Obter(id);

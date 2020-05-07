@@ -58,5 +58,19 @@ namespace EstudoWebApiAspNetCore.Repositories
             }
             return itens;
         }
+
+        public List<Palavra> TodasPaginacao(DateTime data, int pagNumero, int pagRegistroPag) {
+            var item = _banco.Palavras.AsQueryable();
+            if (data != null)
+            {
+                
+                item = item.Where(x => x.Criado > data || x.Atualizado > data);
+            }
+
+
+            item = item.Skip((pagNumero - 1) * pagRegistroPag).Take(pagRegistroPag);
+            return item.ToList();
+        }
+
     }
 }

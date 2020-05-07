@@ -13,5 +13,6 @@ namespace EstudoWebApiAspNetCore.Services.Interfaces
         void Atualizar(int id, Palavra palavra);
         void Deletar(int id);
         List<Palavra> Todas();
+        List<Palavra> TodasPaginacao(DateTime data, int pagNumero, int pagRegistroPag);
     }
 }
