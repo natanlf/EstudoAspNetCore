@@ -10,7 +10,7 @@ namespace EstudoWebApiAspNetCore.Services.Interfaces
     {
         Palavra Obter(int id);
         void Cadastrar(Palavra palavra);
-        void Atualizar(Palavra palavra);
+        void Atualizar(int id, Palavra palavra);
         void Deletar(int id);
         List<Palavra> Todas();
     }

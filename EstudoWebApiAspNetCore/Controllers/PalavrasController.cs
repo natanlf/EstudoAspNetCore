@@ -26,6 +26,13 @@ namespace EstudoWebApiAspNetCore.Controllers
             return Ok(true);
         }
 
+        [HttpPut("{id}", Name = "AtualizarPalavra")]
+        public ActionResult Atualizar(int id, [FromBody] Palavra palavra)
+        {
+            _service.Atualizar(id, palavra);
+            return Ok(true);
+        }
+
         [HttpGet]
         public ActionResult ObterTodas()
         {

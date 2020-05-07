@@ -16,9 +16,17 @@ namespace EstudoWebApiAspNetCore.Services
             _repository = repository;
         }
 
-        public void Atualizar(Palavra palavra)
+        public void Atualizar(int id, Palavra palavra)
         {
-            Atualizar(palavra);
+            var obj = _repository.Obter(id);
+            if (obj != null && palavra != null) {
+                palavra.Id = id;
+                palavra.Ativo = obj.Ativo;
+                palavra.Criado = obj.Criado;
+                palavra.Atualizado = DateTime.Now;
+                _repository.Atualizar(palavra);
+            }
+
         }
 
         public void Cadastrar(Palavra palavra)
