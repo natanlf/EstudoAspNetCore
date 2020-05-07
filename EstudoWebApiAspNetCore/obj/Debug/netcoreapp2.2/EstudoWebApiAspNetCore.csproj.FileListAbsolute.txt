@@ -1,0 +1,16 @@
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.deps.json
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.runtimeconfig.json
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.runtimeconfig.dev.json
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.dll
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.csprojAssemblyReference.cache
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorAssemblyInfo.cache
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorAssemblyInfo.cs
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.AssemblyInfoInputs.cache
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.AssemblyInfo.cs
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorTargetAssemblyInfo.cache
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.dll
+C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb
