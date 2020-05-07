@@ -14,3 +14,19 @@ C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebAp
 C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb
 C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.dll
 C:\Workspace-natancode\workspace-asp-net-core\EstudoWebApiAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.deps.json
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.runtimeconfig.json
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.runtimeconfig.dev.json
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.dll
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.csprojAssemblyReference.cache
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorAssemblyInfo.cache
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorAssemblyInfo.cs
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.AssemblyInfoInputs.cache
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.AssemblyInfo.cs
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorTargetAssemblyInfo.cache
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.dll
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj": {}
+    "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj": {
+    "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
+        "projectUniqueName": "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
         "projectName": "EstudoWebApiAspNetCore",
-        "projectPath": "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
-        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\obj\\",
+        "projectPath": "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
+        "packagesPath": "C:\\Users\\Natan Ferreira\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natan Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -8703,11 +8703,12 @@
       ]
     },
     "System.Diagnostics.FileVersionInfo/4.3.0": {
-      "sha512": "6WVi7gArhxRiC+3qI5V2mFe1gHENj/F7xT5PQiy/lI/RsxXeivrt09WF0huwSQK2ubnmyyRFeA9z3w743/w32A==",
+      "sha512": "omCF64wzQ3Q2CeIqkD6lmmxeMZtGHUmzgFMPjfVaOsyqpR66p/JaZzManMw1s33osoAb5gqpncsjie67+yUPHQ==",
       "type": "package",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12485,23 +12486,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PICHAU\\.nuget\\packages\\": {},
+    "C:\\Users\\Natan Ferreira\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
+      "projectUniqueName": "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
       "projectName": "EstudoWebApiAspNetCore",
-      "projectPath": "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
-      "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace-natancode\\workspace-asp-net-core\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore\\obj\\",
+      "projectPath": "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\EstudoWebApiAspNetCore.csproj",
+      "packagesPath": "C:\\Users\\Natan Ferreira\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspaces\\asp net\\EstudoAspNetCore\\EstudoWebApiAspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Natan Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EstudoWebApiAspNetCore.Database;
+using EstudoWebApiAspNetCore.Repositories;
+using EstudoWebApiAspNetCore.Repositories.Interfaces;
+using EstudoWebApiAspNetCore.Services;
+using EstudoWebApiAspNetCore.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -21,6 +25,8 @@ namespace EstudoWebApiAspNetCore
                 opt.UseSqlite("Data Source=Database\\Mimic.db");
             });
             services.AddMvc();
+            services.AddScoped<IPalavraRepository, PalavraRepository>(); //registra repositories
+            services.AddScoped<IPalavraService, PalavraService>(); //registra services
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
