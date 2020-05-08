@@ -55,6 +55,12 @@ namespace EstudoWebApiAspNetCore.Services
             palavraDTO.Links.Add(
                 new LinkDTO("self", $"https://localhost:44337/api/palavras/{palavraDTO.Id}", "GET")
             );
+            palavraDTO.Links.Add(
+              new LinkDTO("update", $"https://localhost:44337/api/palavras/{palavraDTO.Id}", "PUT")
+          );
+            palavraDTO.Links.Add(
+              new LinkDTO("delete", $"https://localhost:44337/api/palavras/{palavraDTO.Id}", "DELETE")
+          );
 
             return palavraDTO;
         }

@@ -50,6 +50,11 @@ namespace EstudoWebApiAspNetCore.Controllers
         [HttpGet("{id}", Name = "ObterPalavra")]
         public ActionResult obter(int id) {
             var result = _service.Obter(id);
+            if (result != null) {
+                result.Links[0].Href = Url.Link("ObterPalavra", new { id = result.Id });
+                result.Links[1].Href = Url.Link("AtualizarPalavra", new { id = result.Id });
+                result.Links[2].Href = Url.Link("ObterPalavra", new { id = result.Id });
+            }
             return Ok(result);
         }
     }
