@@ -30,3 +30,4 @@ C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcorea
 C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.RazorTargetAssemblyInfo.cache
 C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.dll
 C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\obj\Debug\netcoreapp2.2\EstudoWebApiAspNetCore.pdb
+C:\Workspaces\asp net\EstudoAspNetCore\EstudoWebApiAspNetCore\bin\Debug\netcoreapp2.2\libman.json

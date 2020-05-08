@@ -1,4 +1,6 @@
-﻿using EstudoWebApiAspNetCore.Models;
+﻿using AutoMapper;
+using EstudoWebApiAspNetCore.Models;
+using EstudoWebApiAspNetCore.Models.DTO;
 using EstudoWebApiAspNetCore.Repositories.Interfaces;
 using EstudoWebApiAspNetCore.Services.Interfaces;
 using System;
@@ -11,9 +13,11 @@ namespace EstudoWebApiAspNetCore.Services
     public class PalavraService: IPalavraService
     {
         private readonly IPalavraRepository _repository;
-        public PalavraService(IPalavraRepository repository)
+        private readonly IMapper _mapper;
+        public PalavraService(IPalavraRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
         public void Atualizar(int id, Palavra palavra)
@@ -41,9 +45,18 @@ namespace EstudoWebApiAspNetCore.Services
             _repository.Deletar(id);
         }
 
-        public Palavra Obter(int id)
+        public PalavraDTO Obter(int id)
         {
-            return _repository.Obter(id);
+
+            var obj = _repository.Obter(id);
+
+            PalavraDTO palavraDTO = _mapper.Map<Palavra, PalavraDTO>(obj);
+            palavraDTO.Links = new List<LinkDTO>();
+            palavraDTO.Links.Add(
+                new LinkDTO("self", $"https://localhost:44337/api/palavras/{palavraDTO.Id}", "GET")
+            );
+
+            return palavraDTO;
         }
 
         public List<Palavra> Todas()
