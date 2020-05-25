@@ -1,4 +1,5 @@
 ﻿using EstudoWebApiAspNetCore.Models;
+using EstudoWebApiAspNetCore.Models.DTO;
 using EstudoWebApiAspNetCore.Services;
 using EstudoWebApiAspNetCore.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -23,7 +24,7 @@ namespace EstudoWebApiAspNetCore.Controllers
         public ActionResult Cadastrar([FromBody] Palavra palavra)
         {
             _service.Cadastrar(palavra);
-            return Ok(true);
+            return Created($"/api/palavras/{palavra.Id}", palavra);
         }
 
         [HttpPut("{id}", Name = "AtualizarPalavra")]

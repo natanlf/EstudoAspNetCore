@@ -36,6 +36,8 @@ namespace EstudoWebApiAspNetCore.Services
         public void Cadastrar(Palavra palavra)
         {
             if (palavra != null) {
+                palavra.Ativo = true;
+                palavra.Criado = DateTime.Now;
                 _repository.Cadastrar(palavra);
             }   
         }
